@@ -1,0 +1,32 @@
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Frontend dependencies and build files
+frontend/node_modules/
+frontend/dist/
+
+# Uploaded and generated audio
+input/*
+stems/*
+output/*
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Python testing/cache
+.pytest_cache/
+.mypy_cache/
